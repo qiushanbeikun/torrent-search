@@ -232,7 +232,6 @@ function App() {
             </StyledButton>
           </Grid>
         </Grid>
-        <Button onClick={Test}>test</Button>
         <Fuck/>
       </Container>
     </div>
