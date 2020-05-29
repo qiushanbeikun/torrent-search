@@ -111,7 +111,7 @@ function App() {
         case 1:
           let parsedInput = content.split(" ").reduce((acc, cur) => acc + "_" + cur);
           // console.log(parsedInput);
-          let APIResult = await fetch(`${API_ENDPOINT}/anime/${parsedInput}`).then((res) => res.text());
+          let APIResult = await fetch(`https://torrent-search-api.herokuapp.com/anime/${parsedInput}`).then((res) => res.text());
           setResultList(await JSON.parse(APIResult));
           setRevealResult(true);
           break;
