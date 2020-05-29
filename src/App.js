@@ -12,6 +12,7 @@ import Container from "@material-ui/core/Container";
 import styled from "@material-ui/core/styles/styled";
 import Box from "@material-ui/core/Box";
 import IMG from './back.jpg'
+import { API_ENDPOINT } from './environment';
 
 const parse5 = require('parse5');
 
@@ -110,7 +111,7 @@ function App() {
         case 1:
           let parsedInput = content.split(" ").reduce((acc, cur) => acc + "_" + cur);
           // console.log(parsedInput);
-          let APIResult = await fetch(`http://localhost:4000/anime/${parsedInput}`).then((res) => res.text());
+          let APIResult = await fetch(`${API_ENDPOINT}/anime/${parsedInput}`).then((res) => res.text());
           setResultList(await JSON.parse(APIResult));
           setRevealResult(true);
           break;
@@ -209,8 +210,8 @@ function App() {
                   <em>None</em>
                 </MenuItem>
                 <MenuItem value={1}>Anime</MenuItem>
-                <MenuItem value={2}>Game</MenuItem>
-                <MenuItem value={3}>Pxxn</MenuItem>
+                <MenuItem value={2}>Game(Currently not available)</MenuItem>
+                <MenuItem value={3}>Pxxn(Currently not available)</MenuItem>
               </Select>
             </FormControl>
           </Grid>
