@@ -1,68 +1,115 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2020年4月，中国最大的盗版百度网盘下载工具 Pandownload的制作人被逮捕  
+这标志着大陆正式进入了强奸正版时代  
+PanDownload是一个NB的软件，而百度是一家SB的公司  
+我没法为PanDownload做些什么  
+只能写一个捞到不行的搜种脚本  
+表达我对“强奸正版”时代的不满  
 
-## Available Scripts
+以下是我很久之前写的评论，笑一笑吧  
 
-In the project directory, you can run:
+说到盗版，那就不得不提到这两个软件——百度云和迅雷。<br/>
+百度云是做云储存的，<br/>
+而迅雷则是p2p下载，<br/>
+两者在技术上却有很大的不同。<br/>
+你在百度云中下载的文件是真真正正从服务器里弄出来的，<br/>
+而你从迅雷下载的各种电影，<br/>
+实际上却是别人分享给你的。<br/>
+以webtorrent项目的网页为例，<br/>
+这支14分钟的短片，<br/>
+是从其他11位用户手中下载过来的，<br/>
+而当你完成这支短片的下载后，<br/>
+如果有新的用户想要获取短片，<br/>
+你就会把自己下载好的元数据发送给他。<br/>
+但是，这还不是p2p成为盗版之首的元凶，<br/>
+而是因为p2p有着高度去中心化的特点，即没有中心。<br/>
+每一个人都能够成为下载和上传的单位，<br/>
+同时每一个人都可以在本地保存传输内容。<br/>
+这也就意味着，没有任何人拥有权限去“删帖”，<br/>
+没有人能够拥有删除你电脑中内容的权限，阻止p2p内容的传播。<br/>
+而在此之上，<br/>
+更是有着一个强大的，<br/>
+完善的种子分享系统，<br/>
+这就是臭名昭著的海盗湾。<br/>
+这是一个神奇的网站，<br/>
+你几乎可以在这里找到你需要的所有东西，<br/>
+无论是各种游戏，电影，音乐，软件，电子书，甚至是苍老师。<br/>
+这个网站在2003年由两个瑞典的哥们创立，十几年来几经波折。<br/>
+如今，这个网站还在运行，<br/>
+每隔几分钟就会有新的种子上传上来。<br/>
+<br/>
+但是，为什么盗版资源会这么猖獗？<br/>
+<br/>
+让我们回忆一下互联网还没有普及的时候，<br/>
+我们每天只能守在电视机前，苦苦等完10分钟的广告，<br/>
+然后享受那么去去几分钟的猫和老鼠。<br/>
+而我们只能这样做，因为我们 没有选择<br/>
+我们只能被动地接受电视台传输给我们的内容。<br/>
+而在21世纪的第一个十年，<br/>
+三大厂商改变了这个现状——分别是netflex 视频，iTunes 音乐和steam 游戏。<br/>
+这是人们第一次对娱乐内容观念的转变，<br/>
+人们可以自由选择娱乐的内容，<br/>
+只为喜欢的内容付费。<br/>
+另一个对于盗版压倒性的优势就是这三家几乎垄断性的地位，<br/>
+尤其是在苹果推行订阅制度后，<br/>
+乔布斯自信地说，你在iTunes付出的订阅费，<br/>
+要远小于你在搜集各种盗版资源时所花的精力。<br/>
+没错，这三家都能提供一站式的服务，<br/>
+在netflex，你能看到你想看的视频，<br/>
+在iTunes你能听到你想听的音乐，<br/>
+在steam，你能玩到你想玩的游戏。<br/>
+既然如此，我为什么还要冒险并且花费精力找盗版呢?<br/>
+于是那段时间，是盗版市场很沉闷的一段，原因就是，人们能够方便地购买自己喜欢的内容，并且成本低于盗版。<br/>
 
-### `yarn start`
+于是国内厂商开始效仿，可惜学的并不到家，<br/>
+记得在11 12年的时候，<br/>
+各大视频平台突然就冒了出来，<br/>
+并推出了付费订阅制度。<br/>
+然而各大平台往往只有几部能够拿得出手的作品，<br/>
+剩下的便是各种笔仙，各种校园， 各种五毛特效。。。 <br/>
+还有片头两分钟的广告，各种诱导买会员。<br/>
+反观隔壁暴风影音和还没凉的快播，<br/>
+不仅一站式提供所有热门资源，<br/>
+而且拥有能把宽带跑满的下载速度，<br/>
+虽然也有广告，但是不至于影响观影体验。<br/>
+试问有一个能提供itunes级服务，<br/>
+但是有不收费的平台，谁不心动。<br/>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+后来，突然就版权意识提高，各大平台打响版权战。<br/>
+王欣和他的快播成为了第一批倒下的人。<br/>
+但是对面平台并没有着手提高自己视频内容的质量，<br/>
+反而想方设法地添加广告。<br/>
+盗版产业怎会因为快播的死亡而停下脚步？<br/>
+于是，盗版玩家纷纷转移到了百度云，<br/>
+同时转移过去的还有一众贴吧老哥。<br/>
+当时的百度云只有三个大区，电影区，游戏区，还有秋名山区。<br/>
+但是好景不长，百度云被净网行动洗刷，再也不能GKD，<br/>
+迅雷也不再为举报内容提供下载，<br/>
+盗版玩家可能真的到了背水一战的地步了。<br/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+前一段时间，庆余年的vvip事件发酵，<br/>
+腾讯编辑部发出了《不配拥有精神生活》的文章，批评此次vvip事件。<br/>
+可惜的是，这篇文章的声音还没有传达出来，<br/>
+就毁在了这个标题上。<br/>
+爱奇艺也发声抱怨每年都在亏损，<br/>
+而网友自然不会领情，因为这次vvip事件是真的过分了。<br/>
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+正版和盗版的战争其实就是用户金钱和精力的较量。<br/>
+曾经盗版市场的低迷证明了用户能够为正版内容心甘情愿的付费，<br/>
+但是用户这么做的前提是便宜的价格和优秀的服务。<br/>
+否则，正版拿什么来和“一站网天下”的海盗湾竞争？<br/>
+然而近期，视频平台看似开始重走当时有线电视覆辙，<br/>
+HBO, 迪士尼，YouTube纷纷成立自己的付费服务，<br/>
+向netflex的地位发起挑战。<br/>
+但在用户这里，以前只用十几刀的订阅费却变成了好几倍。<br/>
+有线电视被流媒体淘汰的原因就是<br/>
+用户不想花几百块钱订阅一堆 根本不感兴趣的频道，<br/>
+而现在的各种“独家”“独占”，<br/>
+更是在公然挑衅用户“主动”“选择”为内容付费的权力，<br/>
+有一种在五一劳动节当天996的讽刺。<br/>
+苹果曾经为“优秀平台及服务”提供了很好的例子，<br/>
+但是不是每一个平台都能有苹果那样的眼光和实力，<br/>
+然而在服务升级中产生的成本断然是不应该由用户来承担的。<br/>
+所以，<br/>
+盗版作为用户娱乐(精神)需求的体现，<br/>
+在这样的环境下是不会消失的，<br/>
+而所谓的版权意识的提高也只是一种妥协。<br/>
